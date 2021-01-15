@@ -5,7 +5,7 @@
 
 working_dir="`pwd`"
 
-#Get namesapce variable
+#Get namespace variable
 tenant=`awk '{print $NF}' "$working_dir/tenant_export"`
 
 jmx="$1"
